@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+}
+
+
+.info{
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 5px;
+    margin: 10px;
+}
+input{
+    margin: 7px;
+}
+button{
+    margin: auto;
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
