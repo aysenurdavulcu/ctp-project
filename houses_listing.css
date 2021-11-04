@@ -1,0 +1,48 @@
+
+body {
+
+    text-align:center
+    }
+    h1 {
+    text-align:center
+    }
+    H2{
+    text-align:center
+    }
+    P{
+    text-align:center
+    }
+    Form{
+    text-align:center
+    }
+    Img{
+    text-align:center
+    }
+    .row {
+      display: flex;
+    text-align:center
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    text-align:center
+    }
+    .button:hover {
+      border: none;
+       background-color: #FFA500;
+      color: white;
+    }
+    .button1:hover{
+      border: none;
+       background-color: #FF4500;
+      color: black;
+    }
+    #bg-image {
+      background: url("assets/bg.png") no-repeat;
+      background-position: bottom center;
+      background-size: cover;
+      height: 100%;
+      z-index: -1;
+    }
+    
