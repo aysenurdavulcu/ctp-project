@@ -2,47 +2,58 @@
 
 <html>
     <head>
-		<link rel="stylesheet" href="../CSS/tenant-form.css" />
+        <link rel="stylesheet" href="tenant-form.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-        <title>Tenant Information Form</title>
+        <title>New Tenant Form</title>
     </head>
+
     <body>
         <header>
-
+            <div class="topnav">
+                <a href="#"><h2>Housing Connect</h2></a>
+                <a class="link" href="/ctp-project-main/index.html">Log Out</a>
+            </div>
         </header>
-
-        <div class="container info contact-info">
-            <h2>Contact Information</h2>
-            
-            <label for="name">Full Name:</label>
-            <input type="text" placeholder="Enter Full Name" id="name" required>
-            </br>
-            <label for="number">Phone Number:</label>
-            <input type="tel" placeholder="Enter Phone Number" id="number" required>
-            </br>
-            <label for="email">Email:</label>
-            <input type="email" placeholder="Enter Email Address" id="email" required>
-        </div>
         
-        <div class="container info financial-info">
-            <h2>Financial Information</h2>
-            
-            <label for="score">Credit Score:</label>
-            <input type="number" placeholder="Enter Credit Score" id="score" required>
-            </br>
-            <label for="income">Income:</label>
-            <input type="number" placeholder="Enter Income" id="income" required>
-            </br>
-            <label for="employ">Proof of Employment:</label>
-            <input type="file" id="employ" required>
-            </br>
-            <label for="id">Proof of Identification:</label>
-            <input type="file" id="id" required>
-            </br>
-        </div>
-        
-        <button class="signupbtn" type="submit">Sumbit</button>
+        <main>
+            <h1>Please Input Your Information</h1>
+            <div class="container">
+                <h2>Contact Information</h2>
+                <div id="contact">
+                    <label for="name">Full Name:</label>
+                    <input type="text" placeholder="Enter Full Name" id="name" required>
+                    </br>
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" placeholder="Enter Phone Number" id="number" required>
+                    </br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" placeholder="Enter Email Address" id="email" required>
+                </div>
+                <hr>
+                <h2>Financial Infomation</h2>
+                <div id="financial">
+                    <label for="score">Credit Score:</label>
+                    <input type="number" placeholder="Enter Credit Score" id="score" required>
+                    </br>
+                    <label for="income">Income:</label>
+                    <input type="number" placeholder="Enter Income" id="income" required>
+                    </br>
+                    <div class="file">
+                        <label for="employ">Proof of Employment:</label>
+                        <input type="file" id="employ" required>                    
+                    </div>
+                    
+                    <!-- </br> -->
+                    <label for="id">Proof of Identification:</label>
+                    <input type="file" id="id" required>
+                </div>
+            </div>
+            <footer>
+                <button class="signupbtn" type="submit">Sumbit</button> 
+            </footer>
+        </main>
 
+        
     </body>
 </html>
