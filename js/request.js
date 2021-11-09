@@ -1,4 +1,4 @@
-//props will determien if homwowner or tenant
+//props will determine if homwowner or tenant
 //props - {houseName, userName, status, user (tenant or homeowner), imageURL, tenantForm}
 function Request(props) {
   //this is if they are a tenant
